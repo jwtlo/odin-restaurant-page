@@ -74,10 +74,3 @@ export default () => {
 };
 
 // Intro generated with perplexity.ai
-
-// Citations:
-// [1] https://startribune.com/full_site_redirect/?rurl=http%3A%2F%2F%D0%B4%D0%B0%D1%83%D1%86%D1%80.%D1%80%D1%84%2Focmdq13fe43
-// [2] https://diner349.rssing.com/chan-5140164/all_p4.html
-// [3] https://breakfastwithnick.com/2017/12/29/2017-year-breakfast/
-// [4] https://yelp.com/search?cflt=restaurants&find_loc=Hookstown%2C+PA+15050
-// [5] https://yelp.com/search?cflt=diners&find_loc=Wakes+Colne+CO6+2DY"
