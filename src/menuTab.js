@@ -84,6 +84,9 @@ export default () => {
     return card;
   }
 
+  const title = document.createElement("h1");
+  title.textContent = "Menu";
+
   // Appetizers
   const sectionOne = document.createElement("section");
   const sectionOneTitle = document.createElement("h2");
@@ -114,6 +117,7 @@ export default () => {
     sectionThree.appendChild(createMenuItem(item))
   );
 
+  container.appendChild(title);
   container.appendChild(sectionOne);
   container.appendChild(sectionTwo);
   container.appendChild(sectionThree);
