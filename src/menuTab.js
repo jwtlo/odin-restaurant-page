@@ -84,14 +84,14 @@ export default () => {
     return card;
   }
 
-  const title = document.createElement("h1");
-  title.textContent = "Menu";
-
   // Appetizers
   const sectionOne = document.createElement("section");
+  const title = document.createElement("h1");
+  title.textContent = "Menu";
   const sectionOneTitle = document.createElement("h2");
   sectionOneTitle.className = "menu-heading";
   sectionOneTitle.textContent = "Appetizers";
+  sectionOne.appendChild(title);
   sectionOne.appendChild(sectionOneTitle);
   menuItems.appetizers.forEach((item) =>
     sectionOne.appendChild(createMenuItem(item))
@@ -117,7 +117,6 @@ export default () => {
     sectionThree.appendChild(createMenuItem(item))
   );
 
-  container.appendChild(title);
   container.appendChild(sectionOne);
   container.appendChild(sectionTwo);
   container.appendChild(sectionThree);
