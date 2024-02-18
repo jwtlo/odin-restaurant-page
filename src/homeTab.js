@@ -56,7 +56,17 @@ export default () => {
   sectionThree.appendChild(locationHeading);
   sectionThree.appendChild(locationContent);
 
+  // Image
+  const image = document.createElement("img");
+  image.setAttribute("src", "./decor.webp");
+  image.setAttribute("alt", "Inside of the restaurant");
+  image.setAttribute("width", "500");
+  image.setAttribute("height", "500");
+
+  // Add to container
+
   container.appendChild(sectionOne);
+  container.appendChild(image);
   container.appendChild(sectionTwo);
   container.appendChild(sectionThree);
 
