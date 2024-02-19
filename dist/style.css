@@ -3,6 +3,19 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #544343;
+
+  font-family: Cormorant_Garamond, serif;
+}
+
+@font-face {
+  font-family: Cormorant_Garamond;
+  src: url(./Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cormorant_Garamond;
+  src: url(./Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+  font-weight: bold;
 }
 
 colors {
