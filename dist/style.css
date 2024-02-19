@@ -80,7 +80,19 @@ section {
   gap: 1rem;
 }
 
+body {
+  position: relative;
+}
+
+main {
+  padding-bottom: 3rem;
+}
+
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
   background-color: #56282d;
   display: flex;
   justify-content: center;
