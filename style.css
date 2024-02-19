@@ -27,9 +27,9 @@ colors {
   color: #110b11;
 }
 
-* {
+/* * {
   border: 1px solid black;
-}
+} */
 
 header {
   position: sticky;
@@ -49,6 +49,20 @@ nav button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   background-color: #d3b88c;
+
+  font-family: inherit;
+  font-weight: bold;
+
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px 0px #1d151d;
+}
+
+nav button:active {
+  background-color: #554a38;
+  color: #f4f2f3;
+  box-shadow: 2px 1px 2px 0px #1d151d;
+  transform: translateY(1px);
 }
 
 h1 {
@@ -79,7 +93,7 @@ main > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 section {
@@ -91,6 +105,9 @@ section {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 2px #1d151d;
 }
 
 body {
@@ -105,8 +122,11 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding: 1rem 0rem;
 
   background-color: #56282d;
   display: flex;
   justify-content: center;
+
+  color: #e4dcc3;
 }
